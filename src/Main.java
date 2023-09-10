@@ -35,7 +35,7 @@ public class Main {
             throw new IllegalArgumentException();
         }
 
-        if (!(status1 == status2)) {
+        if (!(status1.equals(status2))) {
             throw new IllegalArgumentException();
         }
 
